@@ -1,0 +1,250 @@
+@font-face {
+  font-family: "Insula";
+  src: url("./assets/INSULA__.ttf");
+}
+
+body {
+  font-family: "Insula", "Roboto", Arial, sans-serif;
+  background-image: url("./assets/light.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.dark-mode {
+  background-image: url("./assets/dark.jpg");
+  background-color: #002366;
+  color: lightblue;
+  
+}
+.dark-mode .tile.valid {
+  background-color: #293133;
+  /* color: grey; */
+  /* color: lightblue; */
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 45px;
+  margin-top: 50px;
+}
+
+.top-board {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: row;
+  width: 300px;
+  height: 100%;
+  padding: 20px 0;
+  margin: 20px auto;
+  margin-bottom: 0;
+  gap: 15px;
+}
+
+.clicker,
+#timer,
+#flags-left,
+#bombs-left {
+  border: 5px solid;
+  width: 40px;
+  height: 40px;
+  margin-top: 20px;
+  background: lightskyblue;
+  border: 5px solid;
+  border-color: #7c8a76 #e2e8ce #e2e8ce #7c8a76;
+font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.dark-mode .clicker,
+.dark-mode #timer,
+.dark-mode #flags-left,
+.dark-mode #bombs-left
+ {
+  background-color: #112240;
+  color: lightblue;
+}
+.dark-mode input {
+  background-color: #112240;
+  color: lightblue;
+}
+
+.clicker img,
+#timer img,
+#flags-left img,
+#bombs-left img {
+  width: 10px;
+  height: 10px;
+  float: left;
+  margin: -25px 0 0 -20px;
+  position: absolute;
+}
+
+
+.result {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-color: #7c8a76 #e2e8ce #e2e8ce #7c8a76;
+  margin-top: 15px;
+  width: 55px;
+  height: 60px;
+  z-index: 1;
+}
+
+.game-board {
+  display: grid;
+  margin: 0 auto;
+  background-color: rgb(151, 141, 141);
+  border: 10px solid lightskyblue;
+  justify-content: center;
+  box-sizing: content-box;
+  color: lightblue;
+  
+
+    grid-template-columns: repeat(10, 30px);
+    grid-template-rows: repeat(10, 30px);
+  
+}
+@media (max-width: 767px) {
+  .game-board {
+    grid-template-columns: repeat(10, 23px);
+    grid-template-rows: repeat(10, 23px);
+  }
+}
+
+ .dark  {
+  border: 10px solid #002366; 
+  color: lightblue;
+}
+
+.tile {
+  text-align: center;
+  font-weight: bold;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+}
+
+.bomb {
+  background-color: lightblue;
+  border: 1.5px solid;
+  border-top-color: #ffffff;
+  border-right-color: #7b7b7b;
+  border-bottom-color: #7b7b7b;
+  border-left-color: #ffffff;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  width: 30px;
+  height: 30px;
+}
+
+.valid {
+  background-color: lightblue;
+  border: 1.5px solid;
+  border-top-color: #ffffff;
+  border-right-color: #7b7b7b;
+  border-bottom-color: #7b7b7b;
+  border-left-color: #ffffff;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.checked {
+  background-color: #f0f0f0;
+  cursor: default;
+}
+
+
+.flagged {
+  /* Define the appearance for flagged non-bomb tiles */
+  background-color: #ffc107;
+  /* Add any additional styling as desired */
+}
+
+.one {
+  color: #e76346;
+}
+
+.two {
+  color: #4199d3;
+}
+
+.three {
+  color: #57da59;
+}
+
+.four {
+  color: darkblue;
+}
+
+.bottom-board {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.difficulty-button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  font-size: 16px;
+  width: 100px;
+  background-color: lightblue;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.bomb-input {
+  width: 60px;
+  padding: 5px;
+  margin: 0 10px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.set-bombs-button {
+  width: auto;
+  padding: 10px 20px;
+  margin: 0 10px;
+  font-size: 16px;
+  background-color: lightblue;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.set-bombs-button:hover,
+.difficulty-button:hover {
+  background-color: lightskyblue;
+}
+
+.bottom-board {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+
+.volume-icon {
+  display: hidden;
+}
+
+
