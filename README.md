@@ -12,4 +12,4 @@ Welcome to the Minesweeper game repository! Embark on a nostalgic journey with t
 - **Bombs Count**: Stay informed about the number of hidden mines. The tension rises with every move!
 
 ## Deployment 🚀
-Play the Minesweeper game [here](https://tanyaa-a.github.io/Minesweeper/).
+Play the Minesweeper game [here](https://tanyaa-a.github.io/Minesweeper/minesweeper).
