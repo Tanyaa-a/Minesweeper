@@ -2,7 +2,7 @@
 
 Welcome to the Minesweeper game repository! Embark on a nostalgic journey with this classic game, redesigned with a modern twist and enhanced with responsive design to suit all devices.
 
-<img width="1578" alt="minesweepe1" src="https://github.com/Tanyaa-a/Minesweeper/assets/120506794/49deb278-7e69-4fa7-b06e-beb026ddfe61">
+<img width="1000" alt="minesweepe1" src="https://github.com/Tanyaa-a/Minesweeper/assets/120506794/49deb278-7e69-4fa7-b06e-beb026ddfe61">
 
 
 ## Features 🌟
@@ -12,4 +12,4 @@ Welcome to the Minesweeper game repository! Embark on a nostalgic journey with t
 - **Bombs Count**: Stay informed about the number of hidden mines. The tension rises with every move!
 
 ## Deployment 🚀
-Play the Minesweeper game [here](YOUR_DEPLOYMENT_LINK_HERE).
+Play the Minesweeper game [here](https://tanyaa-a.github.io/Minesweeper/).
